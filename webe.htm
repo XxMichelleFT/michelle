@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/lo2.jpg"/>
+    <link rel="shortcut" href="./img/lo2.jpg"/>
+    <link rel="apple-touch-icon" href="./img/lo2.jpg"/>
+    <title>Login web</title> 
+    <style>
+        body {
+            background-color: gray;
+        } 
+        input , button {
+            background-color: darkgray;
+            border-radius: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    &nbsp; &nbsp; &nbsp; <form action="websait.htm">
+        <input type="hidden" name="home">
+        <button type="submit" style="background-color: darkgray; border-radius: 12px;">
+            Home
+        </button>
+     </form> 
+    <br> <br> <br> <br> <br> <br> <br>
+    
+   <center>  <img src="./img/lo2.jpg" height="200" style="border-radius: 12px;"> </center> 
+   <center> 
+   <form action="login.html">
+       <table>
+           <tr>
+               <td>
+                Name
+               </td>
+               <td>
+                <input type="text" placeholder="ضع اسمك" name="name" minlength="1" maxlength="17" required>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                Password
+               </td>
+               <td>
+                <input type="password" placeholder="ضع كلمة مرور" name="password" minlength="4" maxlength="25" required>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                Email <span style="color: red;">*</span>
+               </td>
+               <td><input type="email" placeholder="ضع البريد الاكتروني" name="email" required>
+
+               </td>
+           </tr>
+           <tr>
+               <td> <select required name="Gns" style="background-color: darkgray;">
+<option value=""> اختار الجنس</option>
+<option value="Boy">  ذكر </option>
+<option value="girl"> انثى</option>
+<option value="gay"> شاذ</option>
+               </select>
+            </td>
+               <td> 
+                   <select required name="old" style="background-color: darkgray;">
+                       <option value="">اختار عمر </option>
+                       <option value="10>"> اقل من 10</option> 
+                       <option value="10<">   اكبر من 10  </option>
+                   </select>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                <button type="reset" > Reset  </button>
+               </td>
+               <td>
+                <button type="submit">  Login </button>
+               </td>
+           </tr>
+        </table>
+   </form>
+</center>
+</body>
+</html>
